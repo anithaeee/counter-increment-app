@@ -5,6 +5,7 @@ import 'bootstrap/dist/css/bootstrap.css';
 import { useState } from 'react';
  const Counter = () => {
     const [count ,setcount] = useState(0)
+    
   return (
     <div className="container my-5">
         <div className='text-center my-5'>
@@ -18,7 +19,8 @@ import { useState } from 'react';
                 </div>
             </div>
         </div>
+   
     </div>
   )
-}
+  }
 export default Counter;
